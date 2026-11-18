@@ -1,5 +1,29 @@
 # cotal-ai
 
+## 0.170.0
+
+### Patch Changes
+
+- 7aa0044: When self-update refuses a root-owned npm installation, show an administrator command that uses sudo, doas, or a root shell according to what is available.
+- 7618a62: Retry interrupted daemon status requests so the shell installer can finish reconciliation while the daemon restarts itself.
+- 2211285: Keep the private Jcode startup log path readable in detached launch failures, even in deeply nested workspaces.
+- 79f3979: On Linux, retrying `cotal update --self` recovers from an interrupted install or reconcile child once its recorded processes are gone.
+- b3fd752: Keep running desktop app Managers able to launch agents through installed connectors after the app's runtime path disappears.
+- Updated dependencies [13d4130]
+- Updated dependencies [c701881]
+- Updated dependencies [2c0d279]
+- Updated dependencies [79f3979]
+  - @cotal-ai/auth@0.170.0
+  - @cotal-ai/cli@0.170.0
+  - @cotal-ai/workspace@0.170.0
+  - @cotal-ai/connector-core@0.170.0
+  - @cotal-ai/manager@0.170.0
+  - @cotal-ai/delivery@0.170.0
+  - @cotal-ai/runtime@0.170.0
+  - @cotal-ai/registry@0.170.0
+  - @cotal-ai/core@0.170.0
+  - @cotal-ai/seat@0.170.0
+
 ## 0.169.0
 
 ### Patch Changes

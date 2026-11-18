@@ -1,5 +1,16 @@
 # @cotal-ai/cli
 
+## 0.170.0
+
+### Patch Changes
+
+- c701881: Report damaged local stack, process, trust, credential and renewal records without inferring stopped or healthy components, and retain file-specific recovery guidance.
+- 79f3979: On Linux, retrying `cotal update --self` recovers from an interrupted install or reconcile child once its recorded processes are gone.
+- Updated dependencies [c701881]
+- Updated dependencies [79f3979]
+  - @cotal-ai/workspace@0.170.0
+  - @cotal-ai/core@0.170.0
+
 ## 0.169.0
 
 ### Patch Changes
