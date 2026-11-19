@@ -1,5 +1,11 @@
 # @cotal-ai/core
 
+## 0.170.0
+
+### Patch Changes
+
+- 6170fc9: Move the endpoint messaging verbs into an internal module without changing the endpoint API.
+
 ## 0.169.0
 
 ### Minor Changes

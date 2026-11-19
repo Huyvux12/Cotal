@@ -1,5 +1,11 @@
 # @cotal-ai/connector-jcode
 
+## 0.170.0
+
+### Patch Changes
+
+- 2211285: Keep the private Jcode startup log path readable in detached launch failures, even in deeply nested workspaces.
+
 ## 0.169.0
 
 ### Minor Changes

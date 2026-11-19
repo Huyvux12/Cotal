@@ -1,5 +1,18 @@
 # @cotal-ai/manager
 
+## 0.170.0
+
+### Patch Changes
+
+- bbf57d4: Move the per-owner seat ceiling into the name and capacity component without changing the manager API.
+- df23df2: Move pure manager helpers out of the manager class without changing the manager API.
+- b4d4cc1: Move the managed seat types into their own module without changing the manager API.
+- Updated dependencies [c701881]
+- Updated dependencies [6170fc9]
+  - @cotal-ai/workspace@0.170.0
+  - @cotal-ai/core@0.170.0
+  - @cotal-ai/seat@0.170.0
+
 ## 0.169.0
 
 ### Minor Changes

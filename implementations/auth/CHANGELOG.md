@@ -1,5 +1,19 @@
 # @cotal-ai/auth
 
+## 0.170.0
+
+### Patch Changes
+
+- 13d4130: Separate the auth service's managed lifecycle retirement into an internal module.
+  
+  Keep existing service exports and retirement behavior unchanged.
+- 2c0d279: Wait for a live manager response in the static operator smoke test and report timeouts without blaming permissions.
+- Updated dependencies [c701881]
+- Updated dependencies [6170fc9]
+  - @cotal-ai/workspace@0.170.0
+  - @cotal-ai/core@0.170.0
+  - @cotal-ai/lang@0.170.0
+
 ## 0.169.0
 
 ### Patch Changes

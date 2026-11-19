@@ -1,5 +1,30 @@
 # cotal-ai
 
+## 0.170.0
+
+### Patch Changes
+
+- 6961b8c: Report a conflict when desktop installation finds a running daemon with no install receipt or service unit. Check for a surviving Linux unit before rendering its expected contents.
+- 2211285: Keep the private Jcode startup log path readable in detached launch failures, even in deeply nested workspaces.
+- b3fd752: Keep running desktop app Managers able to launch agents through installed connectors after the app's runtime path disappears.
+- Updated dependencies [13d4130]
+- Updated dependencies [c701881]
+- Updated dependencies [6170fc9]
+- Updated dependencies [bbf57d4]
+- Updated dependencies [df23df2]
+- Updated dependencies [b4d4cc1]
+- Updated dependencies [2c0d279]
+  - @cotal-ai/auth@0.170.0
+  - @cotal-ai/cli@0.170.0
+  - @cotal-ai/workspace@0.170.0
+  - @cotal-ai/core@0.170.0
+  - @cotal-ai/manager@0.170.0
+  - @cotal-ai/connector-core@0.170.0
+  - @cotal-ai/delivery@0.170.0
+  - @cotal-ai/runtime@0.170.0
+  - @cotal-ai/registry@0.170.0
+  - @cotal-ai/seat@0.170.0
+
 ## 0.169.0
 
 ### Patch Changes
